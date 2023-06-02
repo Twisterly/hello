@@ -86,6 +86,8 @@
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <version>2.2</version>
                 <configuration>
+                    <url>http://localhost:8181/manager/text</url>
+                    <server>TomcatServer</server>
                     <path>/hello-world</path>
                     <username>tomcat</username>
                     <password>tomcat</password>
